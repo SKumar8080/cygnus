@@ -45,9 +45,6 @@ Example:
 
 This command will scan the target network range 192.168.1.1-100, scan ports 1-100, and save the results to scan_results.txt.
 
-License:
-
-    Cygnus is licensed under the GNU General Public License v3.0. See LICENSE for more information.
 
 Source Code:
 
