@@ -1,4 +1,4 @@
-Cygnus
+<h1>Cygnus</h1>
 
 Cygnus is a powerful network reconnaissance tool designed to help cybersecurity professionals and ethical hackers uncover hidden information about a target network. With its advanced features and user-friendly interface, Cygnus is an essential tool for any security enthusiast.
 
@@ -13,18 +13,18 @@ Features:
 Installation:
 Linux and macOS
 
-   1. Clone the repository: git clone https://github.com/your-username/cygnus.git
-   2. Change into the repository directory: cd cygnus
-   3. Install dependencies: pip3 install -r requirements.txt
-   4. Run Cygnus: python3 cygnus.py
+    Clone the repository: git clone https://github.com/your-username/cygnus.git
+    Change into the repository directory: cd cygnus
+    Install dependencies: pip3 install -r requirements.txt
+    Run Cygnus: python3 cygnus.py
 
 Windows
 
   .
-   1. Clone the repository: git clone https://github.com/your-username/cygnus.git
-   2. Change into the repository directory: cd cygnus
-   3. Install dependencies: pip install -r requirements.txt
-   4. Run Cygnus: python cygnus.py
+    Clone the repository: git clone https://github.com/your-username/cygnus.git
+    Change into the repository directory: cd cygnus
+    Install dependencies: pip install -r requirements.txt
+    Run Cygnus: python cygnus.py
 
 Usage:
 
@@ -33,15 +33,15 @@ usage: cygnus.py [-h] [-t TARGET] [-p PORTS] [-o OUTPUT]
 optional arguments:
   -h, --help            show this help message and exit
   -t TARGET, --target TARGET
-                        Target IP address or range (e.g., 192.168.1.1 or 192.168.1.1-100)
+   Target IP address or range (e.g., 192.168.1.1 or 192.168.1.1-100)
   -p PORTS, --ports PORTS
-                        Port range to scan (e.g., 1-100 or 80,443)
+   Port range to scan (e.g., 1-100 or 80,443)
   -o OUTPUT, --output OUTPUT
-                        Output file for scan results
+    Output file for scan results
 
 Example:
 
-python3 cygnus.py -t 192.168.1.1-100 -p 1-100 -o scan_results.txt
+ python3 cygnus.py -t 192.168.1.1-100 -p 1-100 -o scan_results.txt
 
 This command will scan the target network range 192.168.1.1-100, scan ports 1-100, and save the results to scan_results.txt.
 
