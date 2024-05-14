@@ -1,0 +1,14 @@
+Note: The requirements.txt file lists the dependencies required to run Cygnus. In this case, we need the nmap and scapy libraries, as well as the python-nmap library, which is a Python wrapper for Nmap.
+
+Here's a brief explanation of each dependency:
+
+    nmap: A powerful network scanning tool that provides information about hosts, services, and operating systems.
+    scapy: A Python library for packet manipulation and network exploration.
+    python-nmap: A Python wrapper for Nmap that allows us to use Nmap's functionality from within Python.
+
+To install these dependencies, you can run the following command:
+
+    pip install -r requirements.txt
+
+
+This will install the required libraries and their dependencies, allowing you to run Cygnus.
